@@ -5,7 +5,16 @@ ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
-	border: 1px dotted red;
+	border: 5px dotted red;
+	display: flex;
+	
+	/* By default */
+	flex-direction: row; 
+	/* Wrap items when screen gets smaller */
+	flex-wrap: wrap;
+
+	/* Replaces top 2 properties by a single line */
+	/* flex-flow: row wrap; */
 }
 li {
 	border: 1px solid #999;
