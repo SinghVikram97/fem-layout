@@ -15,6 +15,11 @@ ul {
 
 	/* Replaces top 2 properties by a single line */
 	/* flex-flow: row wrap; */
+
+
+	/* How to lay flex-items in the flex container in main axis direction */
+	/* By default flex-start */
+	justify-content: space-evenly;
 }
 li {
 	border: 1px solid #999;
