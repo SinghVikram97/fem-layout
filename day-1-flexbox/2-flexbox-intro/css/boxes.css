@@ -31,6 +31,22 @@ li {
 	padding: 0.5em;
 }
 
+.flex2{
+
+	border:5px dashed blue;
+
+	order:1;
+	/* By default everybody has order as 0 */
+
+	/* flex-basis: 25%; */
+	/* Flex basis is width but width can be more or less than it see notes */
+	/* 25% of the flex container */
+
+	/* grow shrink basis shorthand */
+	flex:2 1 25%;
+
+}
+
 
 
 
