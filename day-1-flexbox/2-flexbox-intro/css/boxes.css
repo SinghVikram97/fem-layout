@@ -19,7 +19,11 @@ ul {
 
 	/* How to lay flex-items in the flex container in main axis direction */
 	/* By default flex-start */
-	justify-content: space-evenly;
+	justify-content: center;
+	height: 400px;
+
+	/* Aligning items on cross axis */
+	align-items: center;
 }
 li {
 	border: 1px solid #999;
