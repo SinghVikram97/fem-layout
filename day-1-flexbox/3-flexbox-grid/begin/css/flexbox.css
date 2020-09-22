@@ -36,6 +36,13 @@ div img {
 	flex-flow: row wrap;
 }
 
+[class*="col-"]{
+	margin-left:4%;
+}
+
+.col-1{
+	background-color:#ffc;
+}
 
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px)  {
@@ -43,5 +50,7 @@ div img {
 }
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
-
+	.col-1{
+		flex-basis: 20%;
+	}
 }
