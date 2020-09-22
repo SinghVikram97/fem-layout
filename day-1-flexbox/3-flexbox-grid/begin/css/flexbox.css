@@ -53,4 +53,13 @@ div img {
 	.col-1{
 		flex-basis: 20%;
 	}
+	.col-2{
+		flex-basis:44%
+	}
+	.col-3{
+		flex-basis: 68%;
+	}
+	.col-4{
+		flex-basis: 92%;
+	}
 }
