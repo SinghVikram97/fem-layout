@@ -58,6 +58,10 @@ div img {
 	background-color:#cff;
 }
 
+.col-2-4{
+	background-color: #cfc;
+}
+
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px)  {
 	.col-1-2,
@@ -68,6 +72,11 @@ div img {
 	.col-3,
 	.col-4{
 		flex-basis: 92%;
+	}
+
+	.col-2-4{
+		flex-basis: 92%;
+		order:-1
 	}
 }
 /* Desktop screen Sizes */
@@ -84,5 +93,9 @@ div img {
 	}
 	.col-4{
 		flex-basis: 92%;
+	}
+	.col-2-4{
+		flex-basis: 44%;
+		order:1
 	}
 }
