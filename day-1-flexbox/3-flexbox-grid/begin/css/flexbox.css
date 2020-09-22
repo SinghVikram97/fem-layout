@@ -96,6 +96,14 @@ div img {
 	}
 	.col-2-4{
 		flex-basis: 44%;
-		order:1
+		order:0
+	}
+	.reverse{
+		flex-direction: row-reverse;
+	}
+
+	.reverse [class*='col-1']{
+		margin-left: 0;
+		margin-right: 4%;
 	}
 }
